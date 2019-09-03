@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Hello </title>
+</head>
+<body>
+<h1>Write text to audio</h1>
+
+    <form action="/t2s" method="POST">
+        <textarea rows="5" cols="30" name="text" required ></textarea>
+        <input type="submit" value="Convert"/>
+    </form>
+    <audio controls="" src="/static/{{filename}}" ></audio>
+    
+<h2>{{result}}</h2>
+
+
+</body>
+</html>
