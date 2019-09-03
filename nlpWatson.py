@@ -7,7 +7,7 @@ from ibm_watson.natural_language_understanding_v1 import Features, SentimentOpti
 
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-11-16',
-    iam_apikey='be_bMNgvPhFVa7K2oE6FdBRBRVPPhEkPzBOjMzwOPX7U',
+    iam_apikey='',
     url='https://gateway-lon.watsonplatform.net/natural-language-understanding/api'
 )
 
